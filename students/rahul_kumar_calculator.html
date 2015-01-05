@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+</head>
+
+<body>
+<script>
+
+var a,b;
+function setValues()
+{
+
+
+
+	a = Number(document.getElementById("a").value);
+	b = Number(document.getElementById("b").value);
+}
+function sum()
+{
+	setValues();
+	result = a+b;
+	alert("The sum is equal to "+result);
+
+}
+function rest()
+{
+	setValues();
+	result = a-b;
+	alert("The differnce is equal to "+result);
+
+}
+function mult()
+{
+	setValues();
+	result = a*b;
+	alert("The product is equal to "+result);
+
+}
+function div()
+{
+	setValues();
+	result = a/b;
+	alert("The quotient is equal to "+result);
+
+}
+
+
+
+
+
+
+
+
+</script>
+
+	<input id="a" type="text"/>
+    <input id="b" type="text"/>
+	<input type="button" onclick="sum()" value="sum"/>
+	<input type="button" onclick="rest()" value="rest"/>
+    <input type="button" onclick="mult()" value="multipy"/>
+    <input type="button" onclick="div()" value="divide"/>
+
+
+
+</body>
+</html>

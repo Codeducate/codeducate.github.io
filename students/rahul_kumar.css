@@ -1,0 +1,99 @@
+@charset "UTF-8";
+#navMenu  {
+	padding:0;
+	margin:0;
+}
+
+#navMenu ul  {
+	padding:0;
+	margin:0;
+	line-height:30px;
+	background:#858080;
+	float:left;
+}
+
+#navMenu li {
+	padding:0;
+	list-style:none;
+	margin:0;
+	float:left;
+	positon:relative;
+}
+
+#navMenu ul li a {
+	text-align:center;
+	font-family:"Comic Sans Ms",cursive;
+	text-decoration:none;
+	height:30px;
+	width:150px;
+	display:block;
+	color:#FFF;
+	border:1px solid #000;
+	positon:absolute;
+	padding:2;
+}
+
+
+#navMenu ul ul {
+	position:absolute;
+	visibility:hidden;
+	top:32px;
+}
+
+#navMenu ul li:hover ul {
+	visibility:visible;
+	position:absolute;
+}
+	
+/*******************************************************/
+
+#navMenu li:hover {
+	background:#4B08AF;
+}
+	
+#navMenu ul li:hover ul li a:hover {	
+	background:#CCC;
+	color:#000;
+	
+}
+	
+
+
+
+#marquee  {
+	font-family:"Comic Sans Ms",curvise;
+	font-size:100px;
+	color:#0746FF;
+}
+	
+	
+	
+#picture {
+	float:left;
+	
+}
+p  {
+	font-family:"Comic Sans Ms",curvise;
+	font-size:20px;
+	height:15px;
+	width:450px;
+	color:#FFFFFF;
+	right:1800px;
+	background-color:#0D3890;
+	
+}
+
+#middlestuff  {
+	float:left;
+}
+
+p   {
+	font-size:20px;
+}
+
+
+#button  {
+	font-size:18px;
+}
+	
+	
