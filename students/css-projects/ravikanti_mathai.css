@@ -1,0 +1,134 @@
+.description {
+    color: white;
+}
+#header_description {
+    color: purple;
+}
+ul {
+    list-style-type: circle;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    list-style-type: square;
+}
+h1 {
+    color: #00008B;
+    text-align: center;
+    color: black;
+}
+p.ex {
+    color: rgb(0, 0, 255);
+}
+p.description {
+    text-align: right;
+}
+p.favorite {
+    text-align: justify;
+}
+.favorite {
+    text-align: center
+}
+.description {
+    text-align: center
+}
+.flower {
+    text-align: center;
+}
+.fact {
+    text-align: center;
+}
+.image_description {
+    text-align: center;
+}
+.header_description {
+    text-align: center;
+}
+.fact,
+.description {
+    color: navy;
+}
+.favorite {
+    background-color: turquoise;
+}
+.favorite {
+    margin: 50px 10px;
+}
+li {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+h1 {
+    text-decoration: underline;
+}
+h2 {
+    text-decoration: underline;
+}
+h3 {
+    text-decoration: underline;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center
+}
+h3 {
+    text-align: center;
+}
+/*img {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;*/
+/*}*/
+
+.flower {
+    border: 2px solid black;
+    padding: 2px;
+}
+.fact {
+    border: 2px solid white;
+    padding: 2px;
+}
+.description {
+    border: 2px solid white;
+    padding: 2px;
+}
+.flower {
+    font: 15px arial, sans-serif;
+}
+body {
+    background: #00ff00 url("smiley.gif") no-repeat fixed center;
+    cursor: pointer;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background: indigo;
+    -webkit-transition-property: width;
+    /* Safari */
+    
+    -webkit-transition-duration: 2s;
+    /* Safari */
+    
+    transition-property: width;
+    transition-duration: 2s;
+}
+img:hover {
+    width: 300px;
+}
+img {
+    border: 2px solid;
+    padding: 20px;
+}
+.favorite {
+    line-height: 200%;
+}
+.favorite,
+.flower {
+    color: maroon;
+}

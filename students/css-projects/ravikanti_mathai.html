@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<body bgcolor="#FF8C00">
+		<link rel="stylesheet" type="text/css" href="ravikanti_mathai.css">
+		<!-- It is our names -->
+		<title>Vaishu's and Ashwathi's Webpage!</title>
+		<h1>
+			<form name="Tick">
+				<input type="text" size="15" name="Clock">
+			</form>
+			<script>
+				/*By George Chiang (JK's JavaScript tutorial)
+				http://javascriptkit.com
+				Credit must stay intact for use*/
+				function show(){
+				var Digital=new Date()
+				var hours=Digital.getHours()
+				var minutes=Digital.getMinutes()
+				var seconds=Digital.getSeconds()
+				var dn="AM" 
+				if (hours>12){
+				dn="PM"
+				hours=hours-12
+				}
+				if (hours==0)
+				hours=12
+				if (minutes<=9)
+				minutes="0"+minutes
+				if (seconds<=9)
+				seconds="0"+seconds
+				document.Tick.Clock.value=hours+":"+minutes+":"
+				+seconds+" "+dn
+				setTimeout("show()",1000)
+				}
+				show()
+			</script>
+		</h1>
+		<h1>
+			<script>
+				/*Current date script credit: 
+				JavaScript Kit (www.javascriptkit.com)
+				Over 200+ free scripts here!
+				*/
+				
+				var mydate=new Date()
+				var year=mydate.getYear()
+				if (year < 1000)
+				year+=1900
+				var day=mydate.getDay()
+				var month=mydate.getMonth()+1
+				if (month<10)
+				month="0"+month
+				var daym=mydate.getDate()
+				if (daym<10)
+				daym="0"+daym
+				document.write("<small><font color='000000' face='Arial'><b>"+year+"/"+month+"/"+daym+"</b></font></small>")
+				
+			</script><small><font color="000000" face="Arial"><b>2015/06/06</b></font></small>
+		</h1>
+		<center>
+			<!-- picture check -->
+			<img src="ravikanti_mathai_images/image1.png">
+			<h2>
+				<marquee> By: Vaishu Ravikanti and Ashwathi Mathai</marquee>
+			</h2>
+			<!-- got it -->
+			<p id="image_description"><em>There are many different creatures in the sea!!!</em>
+			</p>
+			<!-- Add a header to your webpage. -->
+			<p><em> Under the Sea</em>
+			</p>
+			<p><em> This is going to tell you about sea creatures</em>
+			</p>
+			<h3 id="header_description">There are creatures that vary in size, some small, and some big.<strong> There are animals that are dangerous and create terror! Some animals that we think are going to amaze you!</strong>!</h3>
+			<br>
+			<br>
+			<br>
+			<div class="description">
+				<center>
+					<h2 class="description_header">Sharks</h2>
+				</center>
+				<center><img src="ravikanti_mathai_images/image2.png">
+				</center>
+				<ul>
+					<li class="favorite">Sharks are very vicious animals</li>
+					<li class="favorite">They have superb hearing. They can hear up to 500m away.</li>
+					<li class="favorite">A baby shark is born ready to care of themselves. </li>
+					<li class="favorite">They can race through to water, speeds up to 30km per hour.</li>
+					<center>
+						<b>
+							<h2> Dolphins </h2>
+						</b>
+					</center>
+					<center><img src="ravikanti_mathai_images/image3.png">
+					</center>
+				</ul>
+			</div>
+			<div class="flower">
+				<h4 class="description_header"></h4>
+				<ol>
+					<li class="fact"> Killer Whale(Orca) is type of dolphin.</li>
+					<li class="fact">When dolphins are kept in aquariums there snouts don't become gray because people touch the dolphins on the nose so the skin rubs of and it becomes white or pink.</li>
+					<li class="fact">Pink river dolphins live in the Amazon River.</li>
+					<li class="fact">Dolphin live in school and pods of up to 12.</li>
+					<h2>
+						<b>
+							<center> Sea Horses </center>
+						</b>
+					</h2>
+					<center><img src="ravikanti_mathai_images/image4.png">
+					</center>
+					<li class="fact">Seahorses pair for life.</li>
+					<li class="fact">Baby seahorses are known as fry.</li>
+					<li class="fact">Less than one in an a thousand seahorses will survive when they are a baby because there are many predators.</li>
+					<li class="fact">Found in tropical shallows and temperature water around the world.</li>
+					<h1>
+						<center>Coral</center>
+					</h1>
+					<center><img src="ravikanti_mathai_images/image5.png">
+					</center>
+					<li class="fact">It is a place where many ocean animals live.</li>
+					<li class="fact"> Some of the coral in this world started to grow about 50 million years ago.</li>
+					<li class="fact"> They live in tropical waters all around the world</li>
+					<li class="fact"> Coral reefs support about 25% marine life.</li>
+					<li class="fact"> Though there are threats to their exsistence. Like global warming and human pollution scientists are estimating 30 years until some of the coral dies.</li>
+					<h1>
+						<center> Glowing Deep-Sea Creatures  </center>
+					</h1>
+					<center><img src="ravikanti_mathai_images/image6.png">
+					</center>
+					<li class="fact">This is called the Glowing Shrimp.</li>
+					<li class="fact">It hurls a glowing cloud of organic matter.</li>
+					<li class="fact">It confuses it's predator with the glowing cloud.</li>
+					<h1> Interesting facts about animals that you don't see everyday!!!!</h1>
+					<center>
+						<h3> White Anemone and Sea Star</h3>
+					</center>
+					<center><img src="ravikanti_mathai_images/image7.png">
+					</center>
+					<li class="fact"> In this picture, the White Anemone is giving the Seastar company.</li>
+					<li class="fact">Anemones are a close relative of coral and jellyfish.</li>
+					<li class="fact"> They run a full spectrum of colors and can be as small as half and inch.</li>
+					<h3>
+						<center>Flower Hat Jelly </center>
+					</h3>
+					<center><img src="ravikanti_mathai_images/image8.png">
+					</center>
+					<li class="fact"> Rare Flower Hat Jelly found in Brazil, Argentina, and Southern Japan.</li>
+					<li class="fact"> It can deliver a very painful sting</li>
+					<li class="fact"> It's tentacles can coil and uncoil, they are used to capture small fish and other food</li>
+					<center>
+						<h3>Christmas Tree Worms</h3>
+					</center>
+					<center><img src="ravikanti_mathai_images/image9.png">
+					</center>
+					<li class="fact"> This is a christmas tree in under water world</li>
+					<li class="fact">They average only 1.5 inches in length</li>
+					<li class="fact"> Becuase of their distincitve shape, color, and beauty they are easily spotted.</li>
+					<center>
+						<h3>Lettuce Coral</h3>
+					</center>
+					<center><img src="ravikanti_mathai_images/image10.png">
+					</center>
+					<li class="fact"> The come in uniform brown, green, or grey.</li>
+					<li class="fact"> They may reach several centimeters in height and they only grow at night.</li>
+					<center>
+						<h3> A Real Hotel under the sea</h3>
+					</center>
+					<center><img src="ravikanti_mathai_images/image11.png">
+					</center>
+					<li class="fact">This is the Water Discus Hotel, located in Dubai</li>
+					<li class="fact"> Right now we are in this fabulous hotel. Were we can see many sharks, dolphins, seahorses, and many more.</li>
+					<li class="fact"> If you are looking for a vacation spot this is the perfect place to go</li>
+					<h1> This is all about sea creatures! I hope you enjoyed this website!</h1>
+					<center><img src="ravikanti_mathai_images/image12.png">
+					</center>
+				</ol>
+			</div>
+			<br>
+			<br>
+			<br>
+		</center>
+	</body>
+</html>
