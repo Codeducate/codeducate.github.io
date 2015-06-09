@@ -1,0 +1,30 @@
+#para1 {
+    text-align: center;
+    color: red;
+}
+.center {
+    text-align: center;
+    color: blue;
+}
+p {
+    text-align: left;
+    color: green;
+}
+h1.italic {
+    font-style: italic;
+}
+h1 {
+    background-color: yellow;
+}
+p.italic {
+    font-style: italic;
+}
+h2 {
+    text-decoration: underline;
+}
+h1.uppercase {
+    text-transform: uppercase;
+}
+body {
+    background: #00ff00 url("src=C:\PHOTOS\Neha_Bday_2015\IMG_8409.jpg") no-repeat fixed center;
+}

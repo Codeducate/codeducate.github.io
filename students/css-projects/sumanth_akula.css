@@ -1,0 +1,46 @@
+body {
+background-color: blue;
+}
+
+body {
+	color: white;
+}
+
+div  {
+background-color: red;
+padding:15px;
+width: 400px
+}
+
+td {
+background-color: green;
+}
+
+#internet, .div1 {
+color: green;
+}
+
+#internet { 
+font-family: Comic Sans MS
+}
+
+div { 
+font-family: tahoma;
+}
+
+#crash {
+font-family: tahoma;
+font-size: 50px;
+}
+
+body {
+border: 10px;
+border-color: black;
+border-color: black;
+}
+
+
+#remove {
+text-decoration: underline;
+text-decoration-style: dotted;
+}

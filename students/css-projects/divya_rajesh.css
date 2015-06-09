@@ -1,0 +1,40 @@
+/* This is CSS file for Cheetahs web page */
+p {color:blue; text-decoration}
+strong {color:red}
+ 
+/* removed id selector cause it does not look good on the page
+ #facts 
+         { 
+    background-color: yellow;
+}*/
+
+/* Header1 style */
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+
+/* Body style */
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: purple;
+  background-color: #d8da3d } 
+
+/* image border style */
+ img {
+    border: 5px solid red;
+}
+
+ div {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+    }
+ .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    background-color: #b0e0e6;
+}
