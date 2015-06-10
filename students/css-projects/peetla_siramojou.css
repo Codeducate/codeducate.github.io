@@ -1,0 +1,45 @@
+h1 {
+	color: blue;
+	text-shadow: 2px 2px 5px red;
+}
+
+body {
+	 background-image: url("http://carrient.com/images/dark-gray-bg.png");
+	 	width="100px" height="100px"
+	}
+
+h3, h2, h1 {
+	color: blue;
+	text-shadow: 2px 2px 5px red;
+}
+
+p {
+	font-family: verdana;
+	text-align: center;
+}
+
+.Top3Robots {
+	background-color: lightgreen;
+	font-family: verdana;
+	text-align: center;
+}
+
+.turquoise {
+	background-color: turquoise;
+	font-family: verdana;
+}
+
+.hi {
+	background-color: purple;
+	font-family: verdana;
+	text-align: center;
+}
+
+#special {
+	background-color: lightgrey;
+    width: 1180px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+
+}
