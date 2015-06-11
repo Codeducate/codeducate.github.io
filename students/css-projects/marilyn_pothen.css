@@ -1,0 +1,29 @@
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding bottom: 14px;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    background-image: url('http://www.sealifeweymouth.com/images/main-images/mobile-main-images/creatures-montage.jpg');
+    height: 200px;
+    padding-left: 500px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Shift', sans-serif;
+}
+
+.learn-more h3 {
+    font-family: 'Shift', sans-serif;
+    font-size: 18px font-weight: bold
+}
+
+.learn-more a {
+    color: #00b0ff

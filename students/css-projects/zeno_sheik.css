@@ -1,0 +1,56 @@
+body {
+    background-image: url(bk2.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 15px;
+}
+h1,
+h4 {
+    color: blue;
+}
+h1::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+h1,
+h4,
+p {
+    text-align: center;
+    font-weight: bold
+}
+h1 {
+    font-size: 140%;
+}
+h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+}
+img.normal {
+    height: auto;
+    width: 900px;
+}
+img.small {
+    border: 1px solid black;
+    height: 300px;
+    outline: black dotted thick;
+}
+li {
+    color: black;
+}
+p {
+    color: purple;
+    font-size: 200%;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+.div1 {
+    width: 900px;
+    height: 600px;
+    border: 1px solid blue;
+}
+.div2 {
+    width: 900px;
+    height: 600px;
+    border: 1px solid red;
+}
