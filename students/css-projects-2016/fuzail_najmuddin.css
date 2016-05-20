@@ -1,0 +1,61 @@
+/*This is my CSS file created on  5/14/16 which will be linked into my main HTML file by Fuzail Najmuddin.*/
+
+/*Gives the color to the headings I put.*/
+h1, h2, p {
+    text-align: center;
+  color: gold;
+}
+	
+/*Provides values for the properties for the center tag*/
+centered { text-align: center; list-style-position:inside;}
+
+
+/*Provides values for the properties for the list and h4 size font tags*/
+li, h4 { text-align: center;  color: green;}
+
+/*Provides background color for my introductions*/
+.intro {
+    background-color: white;}
+
+
+/*Provides a specific type of font for this specific text.*/
+.favorite {   "font-family: Monospace"; }
+
+/*The size of two of my images*/
+.imageprop { width:350px;height:#330px; }
+
+/*Provides the size of my background image of my website and the link colors*/
+.background { "width:100%" "height:1000%" link="blue"}
+
+/*Underlines a specific line of text*/
+.underlined { text-decoration: underline;}
+
+/*Provides the size for my movie/link images*/
+.movieimage { width:470px;height:232px; }
+
+/*Provides the size of my tables*/
+.tablesize { width:30%; text-align: left }
+
+/*Provides the size for my U.S.S. Norfolk pic*/
+.norfolksize { width:400px;height:350px }
+
+/*Provides the size for my Stone Hill Middle link*/
+.linksize { font-size: 150% }
+
+/*Provides the info. on my CSS box model*/
+.boxmodel { background-color: lightgrey;
+    
+		width: 300px;
+    
+		padding: 25px;
+    
+		border: 25px solid navy;
+    
+		margin: 25px;
+ }
+
+/*We tried to change the features of our already done hover text*/
+.imagehover:hover {
+ color: #000;
+ }
+ 

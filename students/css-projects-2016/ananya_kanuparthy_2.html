@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+
+			<script type="text/javascript">
+				function functionOne(name1,name2) {  /* javascript for Submit*/
+					document.getElementById("demo").innerHTML =
+    		"Thank you " + document.getElementById("first").value + " ," + document.getElementById("second").value + " for the valuable feedback." + "  " +
+    		"Please click on back to Home page or close the window";
+    			document.getElementById('text1').style.visibility = "hidden";			
+				}
+	    	</script>
+	  		<script type="text/javascript">
+	  			function functionTwo() { /* javascript for cancel */
+	  				document.getElementById("demo").innerHTML =
+	  			"Thanks for visiting my page." +" Please click on back to Home page or close the window";
+	   			}
+			</script>
+
+
+			<link rel="stylesheet" type="text/css" href="ananya_kanuparthy_2.css">
+			
+			<title>Winner!</title>
+		</head>	
+		<body>
+			<h1>Surprise!!</h1>
+			<p id="text1"> Thank you for visiting my page!! If you leave some feedback, you will be entered in the contest to win a free ipad mini!! </p>
+			<p id="demo"></p>
+ 			<form>
+ 				First name: <input type="text" name="fname" id="first"><br><br>
+  				Last name: <input type="text" name="lname" id="second"><br><br>
+  				Gender : <input type="radio" name="gender" value="Male">Male
+  						 <input type="radio" name="gender" value="FeMale">Female<br><br>
+  				Comments: <textarea name="comments" cols="40" rows="5"></textarea><br><br>
+  						<input id="clickMe" type="button" value="Submit" onclick="functionOne();" />
+						<input id="cancel" type="button" value="Cancel" onclick="functionTwo();" />
+						<br><br>
+			</form>
+			<a href="ananya_kanuparthy.html">Back to home page 
+		</body>
+	</html>

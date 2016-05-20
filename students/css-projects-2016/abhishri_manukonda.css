@@ -1,0 +1,32 @@
+body{ 
+font-family: "Gills Sans", Sans, serif;
+background-image:url("http://previews.123rf.com/images/dikti/dikti1404/dikti140400020/27681233-Rippling-water-in-a-pool-Bright-blue-water-background-Stock-Photo.jpg");
+}
+
+H1 {
+text-align:"center";
+font-size: 6em; 
+} /* 40px/16=2.5em */
+
+H2 {
+font-size: 3em;
+} /* 40px/16=2.5em */
+
+H3 {
+font-size: 2em;
+} /* 40px/16=2.5em */
+
+p{
+	font-size: 1.75em;
+}
+/* The animation code */
+{
+	from {background-color: purple;}
+	to {background-color: yellow;}
+}
+/* The element to apply the animation to */ 
+div {
+	
+	Animation-name: pulse;
+	Animation-duration: 10s;
+}

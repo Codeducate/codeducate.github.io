@@ -1,0 +1,97 @@
+#myHeader3,#myHeader1
+{color: orange;
+}
+
+#myHeader3{
+    text-decoration: underline;
+}
+h5 { /* text properties for header */
+    text-shadow: 4px 4px 8px #FF0066;
+    text-indent: 400px;
+}
+
+h5,#myHeader6 {
+    text-transform: uppercase;
+}
+
+div>h4{
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+
+#myHeader6{
+	color:red;
+}
+
+#myHeader5{
+	color:black;
+}
+
+div { /* box model*/
+    width: 200px;
+    padding: 10px;
+    border: 5px solid blue;
+    margin: 0; 
+}
+
+span>div{ /* box model */
+    width:350px;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 0; 
+}
+
+#myPara1 { /* id myPara1 font and color preoperties */
+    font-family: "Courier New", Times, serif;
+     font-style: italic;
+     font-size: 15px;
+     font-weight: bold;
+	color:yellow;
+}
+
+
+p { /* paragraph font properties */
+    font-family: "Courier New", Times, serif; 
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    color:purple;
+
+ }
+
+body{
+	background-image: url("http://ijzerlijm.nl/wp-content/uploads/2013/08/1920x1200.jpg");
+	background-size: 800px;
+	background-repeat:no-repeat;
+	background-position: right bottom;
+	background-color: #996666;
+}
+
+ol { 
+    list-style-type: lower-roman;
+}
+
+ol {
+    background: #ff9999;
+    padding: 5px;
+    width:200px;
+    margin-left: 20px
+}
+ul {
+    list-style-type: circle;
+}
+
+.button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.enlarge:hover { /* to enlarge my dance picture */
+	transform:scale(2,2);
+	transform-origin:0 0;
+}
+

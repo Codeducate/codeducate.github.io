@@ -1,0 +1,36 @@
+p {
+    font-family: "Courier New", Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    color:green;
+    margin: 2cm;
+    position: top;
+
+}
+
+form{
+	border: 2px solid green
+}
+
+a:hover{
+	color: red;
+}
+
+#cancel {
+    background-color: red; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#clickMe {
+    background-color: green; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<html>
+	<head>			
+			<link rel="stylesheet" type="text/css" href="ananya_kanuparthy.css">
+			<title>Ananya is Awesome!</title>
+	</head>	
+	<body>
+			<h1 id="myHeader1">Hi! I'm Ananya!  I made this website to tell everyone a little about who I am!</h1>
+			<p id="myPara1">I am a 7th grader at Stone Hill Middle School!  I like to dance, sing, swim, do any type of art, and play the double bass. I am also a tennis player!! I like to read books and Some of my favorite books are City Of Bones, Harry Potter, and My sister's keeper.</p>
+			<br>
+			<p>When I have some free time, I enjoy hanging out with my friends at sweet frogs. Some of my favorite subjects are science, math, and history.  WWII, in my opinion, is one of the most interesting wars in history and I love to read about it.  I also like the medical field of science and I want to be a doctor once I grow up. </p>
+			<h5><font color="580000">I</font> <font color="CC0066">LOVE</font><font color="580000"> Ice cream, pizza, chocolate cake, and glazed donuts!</font></h5>
+			<div>
+				<img class=enlarge src="http://i.ytimg.com/vi/ptxnq06vsYI/maxresdefault.jpg" width="200" length="200">
+				<br>
+			</div>
+
+			<h6 id="myHeader6">This is all about me!<i>Enjoy!</i></h6>
+			<br>
+			 
+			<ul> <h3 id="myHeader3">MY ALL TIME FAVORITE THINGS TO DO</h3>
+				<li>watch the <i>Dallas Cowboys</i> play football(Go Cowboys!)</li>
+				<li>Dance and chillax with my friends </li>
+				<li>Sleep</li>
+			</ul>
+			
+			<ul><h3 id="myHeader3">FACTS ABOUT THE AMAZING ANANYA</h3>
+				<li>My favorite colors are purple,  neon green, pink, and light blue</li>
+				<li>I am one of the <i>only two basists</i> in the seventh grade</li>
+				<li>I am <i>thirteen</i> and I am older than all but one of my friends<i>(by one week)</i></li>
+			</ul>
+
+		    <span>
+			<div>
+			 	<ol><h4>SOME COOL WEBSITES</h4>
+					<li><a href="http://www.codeducate.org/">Codeducate</li>
+					<li><a href="http://www.coolmath-games.com/">Cool Math</li>
+				</ol>
+			</div>
+			</span>	
+			<br>
+			<br>
+
+<!--open another page-->
+			<a href="ananya_kanuparthy_2.html" class="button">Click to enter Feedback</a>	 						
+			
+			<h1>
+			<form name="Tick">
+				<input type="text" size="15" name="Clock">
+			</form>
+			<script>
+				/*By George Chiang (JK's JavaScript tutorial)
+				http://javascriptkit.com
+				Credit must stay intact for use*/
+				function show(){
+				var Digital=new Date()
+				var hours=Digital.getHours()
+				var minutes=Digital.getMinutes()
+				var seconds=Digital.getSeconds()
+				var dn="AM" 
+				if (hours>12){
+				dn="PM"
+				hours=hours-12
+				}
+				if (hours==0)
+				hours=12
+				if (minutes<=9)
+				minutes="0"+minutes
+				if (seconds<=9)
+				seconds="0"+seconds
+				document.Tick.Clock.value=hours+":"+minutes+":"
+				+seconds+" "+dn
+				setTimeout("show()",1000)
+				}
+				show()
+			</script>
+			</h1>
+			</p>
+	</body>
+	</html>
