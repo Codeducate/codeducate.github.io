@@ -1,0 +1,55 @@
+body {
+    background-color: orange;
+}
+
+h1, h2{
+    color:blue;
+    
+   }
+
+#hi{ 
+     color:red;
+   }
+
+.a{
+   color:green;
+  }
+
+h1{
+   font-size: 40px;
+  }
+
+p, table{ 
+    font-variant: small-caps;
+  }
+
+a{
+    font-weight: 800
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    background-color: red;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+
+.b {
+     color: navy;
+    }
+
+.a{ 
+     font-size: 30px;
+  }
+
+
